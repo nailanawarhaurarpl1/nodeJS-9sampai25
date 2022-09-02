@@ -1,7 +1,7 @@
 function samplePromise(){
     return Promise.resolve ("Eko");
 }
-// cobain
+// cobain ya
 async function run(){
     const name = await samplePromise();
     console.info (name);
